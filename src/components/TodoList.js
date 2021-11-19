@@ -4,11 +4,11 @@ import Todo from './Todo';
 const TodoList = ({ todos, todoDelete, todoToggleCompleted, setTodoEdit }) => {
     return (
         <div>
-            <h1 className="text-end">Listado de Tareas</h1>
+            <h2 className="text-end display-4">Listado de Tareas</h2>
             {
                 todos.length === 0
                     ? (
-                        <div className="alert alert-primary">
+                        <div className="alert alert-primary text-end">
                             No hay tareas. Crea una en el formulario {":)"}
                         </div>
                     )

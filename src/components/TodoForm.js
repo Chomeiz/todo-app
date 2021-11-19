@@ -57,7 +57,7 @@ function TodoForm({ todoAdd, todoEdit, todoUpdate, setTodoEdit }) {
 
     return (
         <div>
-            <h1>{todoEdit ? 'Editar Tarea' : 'Nueva Tarea'}</h1>
+            <h2 className="text-center display-5">{todoEdit ? 'Editar Tarea' : 'Nueva Tarea'}</h2>
             {
                 todoEdit &&
                 <button
